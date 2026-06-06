@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PrepPilot • Interviews</title>
+  <link rel="stylesheet" href="../css/dashboard.css" />
+</head>
+<body>
+  <div class="dashboard-shell">
+    <aside class="dashboard-sidebar">
+      <div class="sidebar-brand">
+        <div class="brand-mark">PP</div>
+        <div>
+          <p class="brand-title">PrepPilot</p>
+          <span>Interview Planner</span>
+        </div>
+      </div>
+      <nav class="sidebar-nav">
+        <a class="nav-link" href="dashboard.html">Dashboard</a>
+        <a class="nav-link" href="tracker.html">DSA Tracker</a>
+        <a class="nav-link" href="applications.html">Applications</a>
+        <a class="nav-link active" href="interviews.html">Interviews</a>
+        <a class="nav-link" href="profile.html">Profile</a>
+      </nav>
+      <div class="sidebar-footer">
+        <div class="badge-pill">Interview pipeline</div>
+        <button class="logout-button" id="logoutButton">Logout</button>
+      </div>
+    </aside>
+    <main class="dashboard-main">
+      <header class="topbar">
+        <div>
+          <span class="eyebrow-pill">Interview schedule</span>
+          <h1>Upcoming rounds and status snapshots</h1>
+          <p>Keep every interview date, round and feedback detail visible while you prepare.</p>
+        </div>
+      </header>
+      <section class="panel">
+        <div class="panel-header">
+          <div>
+            <span class="eyebrow-pill">Upcoming interviews</span>
+            <h2>Next rounds</h2>
+          </div>
+        </div>
+        <div id="interviewList" class="timeline-list"></div>
+      </section>
+    </main>
+  </div>
+  <script src="../js/api.js"></script>
+  <script src="../js/interviews.js"></script>
+</body>
+</html>

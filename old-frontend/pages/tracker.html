@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PrepPilot • DSA Tracker</title>
+  <link rel="stylesheet" href="../css/dashboard.css" />
+</head>
+<body>
+  <div class="dashboard-shell">
+    <aside class="dashboard-sidebar">
+      <div class="sidebar-brand">
+        <div class="brand-mark">PP</div>
+        <div>
+          <p class="brand-title">PrepPilot</p>
+          <span>Study streak engine</span>
+        </div>
+      </div>
+      <nav class="sidebar-nav">
+        <a class="nav-link" href="dashboard.html">Dashboard</a>
+        <a class="nav-link active" href="tracker.html">DSA Tracker</a>
+        <a class="nav-link" href="applications.html">Applications</a>
+        <a class="nav-link" href="interviews.html">Interviews</a>
+        <a class="nav-link" href="profile.html">Profile</a>
+      </nav>
+      <button class="logout-button" id="logoutButton">Logout</button>
+    </aside>
+    <main class="dashboard-main">
+      <header class="topbar">
+        <div>
+          <p class="eyebrow-pill">Learning progress</p>
+          <h1>DSA mastery and weakness map</h1>
+          <p>Stay on top of fundamentals, improve weakness areas, and track progress for placement practice.</p>
+        </div>
+      </header>
+      <section class="status-grid">
+        <article class="status-card">
+          <div class="card-head"><span class="eyebrow-pill">Topics mastered</span><strong>12</strong></div>
+          <p>Keep the momentum strong with daily review and mock assessment practice.</p>
+        </article>
+        <article class="status-card">
+          <div class="card-head"><span class="eyebrow-pill">Confidence score</span><strong>78%</strong></div>
+          <p>Areas with low confidence are highlighted so you can focus revisions instantly.</p>
+        </article>
+        <article class="status-card">
+          <div class="card-head"><span class="eyebrow-pill">Weakness meter</span><strong>3 areas</strong></div>
+          <p>Dynamic Programming, Graphs, System Design need your next review sessions.</p>
+        </article>
+      </section>
+      <section class="panel">
+        <div class="panel-header">
+          <div>
+            <span class="eyebrow-pill">Mastery feed</span>
+            <h2>DSA topics and progress</h2>
+          </div>
+        </div>
+        <p class="muted">Track active topics, confidence score and completion percentage.</p>
+        <div class="topic-grid" id="topicGrid"></div>
+      </section>
+    </main>
+  </div>
+  <script src="../js/tracker.js"></script>
+</body>
+</html>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PrepPilot • Create account</title>
+  <link rel="stylesheet" href="../css/auth.css" />
+</head>
+<body>
+  <div class="auth-shell">
+    <section class="auth-card glass-card register-card">
+      <div class="auth-copy auth-copy--small">
+        <div class="brand-header">
+          <span class="brand-mark">PP</span>
+          <div>
+            <p class="brand-label">PrepPilot</p>
+            <small>Ready your placement profile.</small>
+          </div>
+        </div>
+
+        <span class="eyebrow-pill">Student onboarding</span>
+        <h1>Start with an empty placement dashboard.</h1>
+        <p>Register with your academic details so you can begin tracking practice, applications, interviews and resume readiness.</p>
+      </div>
+
+      <form id="registerForm" class="form-card" autocomplete="on">
+        <div class="form-grid">
+          <label>
+            Full Name
+            <input id="regName" name="fullName" type="text" autocomplete="name" placeholder="Nandini Sharma" required />
+          </label>
+
+          <label>
+            Email Address
+            <input id="regEmail" name="email" type="email" autocomplete="email" placeholder="nandini@college.edu" required />
+          </label>
+
+          <label>
+            College Name
+            <input id="regCollege" name="college" type="text" autocomplete="organization" placeholder="Engineering College" required />
+          </label>
+
+          <label>
+            Branch
+            <select id="regBranch" name="branch" required>
+              <option value="Computer Science">Computer Science</option>
+              <option value="Information Technology">Information Technology</option>
+              <option value="Electronics">Electronics</option>
+              <option value="Mechanical">Mechanical</option>
+              <option value="Civil">Civil</option>
+            </select>
+          </label>
+
+          <label>
+            Graduation Year
+            <input id="regGradYear" name="graduationYear" type="number" autocomplete="bday-year" placeholder="2025" required />
+          </label>
+
+          <label>
+            Target Role
+            <select id="regRole" name="role" required>
+              <option value="Software Engineer">Software Engineer</option>
+              <option value="Frontend Developer">Frontend Developer</option>
+              <option value="Backend Developer">Backend Developer</option>
+              <option value="Full Stack Developer">Full Stack Developer</option>
+              <option value="Data Analyst">Data Analyst</option>
+              <option value="Data Scientist">Data Scientist</option>
+            </select>
+          </label>
+
+          <label>
+            Password
+            <div class="password-row">
+              <input id="regPassword" name="password" type="password" autocomplete="new-password" placeholder="Strong password" required />
+              <button type="button" class="password-toggle" data-target="regPassword">Show</button>
+            </div>
+          </label>
+
+          <label>
+            Confirm Password
+            <div class="password-row">
+              <input id="regConfirmPassword" name="confirmPassword" type="password" autocomplete="new-password" placeholder="Confirm password" required />
+              <button type="button" class="password-toggle" data-target="regConfirmPassword">Show</button>
+            </div>
+          </label>
+        </div>
+
+        <button class="primary-button" type="submit">Create account</button>
+        <p class="register-prompt">Already registered? <a href="login.html">Sign in</a></p>
+      </form>
+    </section>
+  </div>
+
+  <script src="../js/auth.js"></script>
+</body>
+</html>

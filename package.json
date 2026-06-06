@@ -1,0 +1,32 @@
+{
+  "name": "preppilot-ai",
+  "version": "1.0.0",
+  "description": "PrepPilot AI — student placement readiness operating system for tracking DSA, applications, interviews, and streak momentum.",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "nodemon backend/server.js"
+  },
+  "keywords": [
+    "preppilot",
+    "placement",
+    "dashboard",
+    "express",
+    "mongodb",
+    "jwt"
+  ],
+  "author": "PrepPilot AI",
+  "license": "MIT",
+  "type": "commonjs",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.6",
+    "dotenv": "^16.6.1",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}

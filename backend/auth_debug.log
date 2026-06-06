@@ -1,0 +1,147 @@
+[authDebug] method=POST url=/api/topics
+[authDebug] raw authHeader=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2YTIyYWEzMzUxMjczNGE3MDBhOWM0MjkiLCJpYXQiOjE3ODA3MjI1MjksImV4cCI6MTc4MDcyNjEyOX0.uPNnpGXRDNZmyh8_WJYSAYj5CC0saIh_yYYJ1-Usojk
+[authDebug] extracted token length=176
+[authDebug] jwt secret present=true
+[authDebug] jwt.verify failed=jwt expired
+---
+[authDebug] method=POST url=/api/goals
+[authDebug] raw authHeader=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2YTIyYWEzMzUxMjczNGE3MDBhOWM0MjkiLCJpYXQiOjE3ODA3MjI1MjksImV4cCI6MTc4MDcyNjEyOX0.uPNnpGXRDNZmyh8_WJYSAYj5CC0saIh_yYYJ1-Usojk
+[authDebug] extracted token length=176
+[authDebug] jwt secret present=true
+[authDebug] jwt.verify failed=jwt expired
+---
+[authDebug] method=GET url=/api/company/TestCorp
+[authDebug] raw authHeader=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2YTIyYWEzMzUxMjczNGE3MDBhOWM0MjkiLCJpYXQiOjE3ODA3MjI1MjksImV4cCI6MTc4MDcyNjEyOX0.uPNnpGXRDNZmyh8_WJYSAYj5CC0saIh_yYYJ1-Usojk
+[authDebug] extracted token length=176
+[authDebug] jwt secret present=true
+[authDebug] jwt.verify failed=jwt expired
+---
+[authDebug] method=POST url=/api/mock-interviews
+[authDebug] raw authHeader=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2YTIyYWEzMzUxMjczNGE3MDBhOWM0MjkiLCJpYXQiOjE3ODA3MjI1MjksImV4cCI6MTc4MDcyNjEyOX0.uPNnpGXRDNZmyh8_WJYSAYj5CC0saIh_yYYJ1-Usojk
+[authDebug] extracted token length=176
+[authDebug] jwt secret present=true
+[authDebug] jwt.verify failed=jwt expired
+---
+[authDebug] method=POST url=/api/notes
+[authDebug] raw authHeader=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2YTIyYWEzMzUxMjczNGE3MDBhOWM0MjkiLCJpYXQiOjE3ODA3MjI1MjksImV4cCI6MTc4MDcyNjEyOX0.uPNnpGXRDNZmyh8_WJYSAYj5CC0saIh_yYYJ1-Usojk
+[authDebug] extracted token length=176
+[authDebug] jwt secret present=true
+[authDebug] jwt.verify failed=jwt expired
+---
+[authDebug] method=POST url=/api/topics
+[authDebug] raw authHeader=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2YTIyYWEzMzUxMjczNGE3MDBhOWM0MjkiLCJpYXQiOjE3ODA3Mjc2ODEsImV4cCI6MTc4MTMzMjQ4MX0.BNJBDNPUeGXxEvJbefbrn123W_R-FmMOAe_zLgNGaAE
+[authDebug] extracted token length=176
+[authDebug] jwt secret present=true
+[authDebug] jwt.verify succeeded
+[authDebug] decoded keys=userId,iat,exp
+[authDebug] lookup userId=6a22aa33512734a700a9c429
+[authDebug] authentication OK userId=6a22aa33512734a700a9c429
+---
+[authDebug] method=PUT url=/api/topics/6a23bf907dcfbde1c2bdca3f
+[authDebug] raw authHeader=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2YTIyYWEzMzUxMjczNGE3MDBhOWM0MjkiLCJpYXQiOjE3ODA3Mjc2ODEsImV4cCI6MTc4MTMzMjQ4MX0.BNJBDNPUeGXxEvJbefbrn123W_R-FmMOAe_zLgNGaAE
+[authDebug] extracted token length=176
+[authDebug] jwt secret present=true
+[authDebug] jwt.verify succeeded
+[authDebug] decoded keys=userId,iat,exp
+[authDebug] lookup userId=6a22aa33512734a700a9c429
+[authDebug] authentication OK userId=6a22aa33512734a700a9c429
+---
+[authDebug] method=POST url=/api/goals
+[authDebug] raw authHeader=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2YTIyYWEzMzUxMjczNGE3MDBhOWM0MjkiLCJpYXQiOjE3ODA3Mjc2ODEsImV4cCI6MTc4MTMzMjQ4MX0.BNJBDNPUeGXxEvJbefbrn123W_R-FmMOAe_zLgNGaAE
+[authDebug] extracted token length=176
+[authDebug] jwt secret present=true
+[authDebug] jwt.verify succeeded
+[authDebug] decoded keys=userId,iat,exp
+[authDebug] lookup userId=6a22aa33512734a700a9c429
+[authDebug] authentication OK userId=6a22aa33512734a700a9c429
+---
+[authDebug] method=PUT url=/api/goals/6a23bf907dcfbde1c2bdca45
+[authDebug] raw authHeader=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2YTIyYWEzMzUxMjczNGE3MDBhOWM0MjkiLCJpYXQiOjE3ODA3Mjc2ODEsImV4cCI6MTc4MTMzMjQ4MX0.BNJBDNPUeGXxEvJbefbrn123W_R-FmMOAe_zLgNGaAE
+[authDebug] extracted token length=176
+[authDebug] jwt secret present=true
+[authDebug] jwt.verify succeeded
+[authDebug] decoded keys=userId,iat,exp
+[authDebug] lookup userId=6a22aa33512734a700a9c429
+[authDebug] authentication OK userId=6a22aa33512734a700a9c429
+---
+[authDebug] method=GET url=/api/company/TestCorp
+[authDebug] raw authHeader=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2YTIyYWEzMzUxMjczNGE3MDBhOWM0MjkiLCJpYXQiOjE3ODA3Mjc2ODEsImV4cCI6MTc4MTMzMjQ4MX0.BNJBDNPUeGXxEvJbefbrn123W_R-FmMOAe_zLgNGaAE
+[authDebug] extracted token length=176
+[authDebug] jwt secret present=true
+[authDebug] jwt.verify succeeded
+[authDebug] decoded keys=userId,iat,exp
+[authDebug] lookup userId=6a22aa33512734a700a9c429
+[authDebug] authentication OK userId=6a22aa33512734a700a9c429
+---
+[authDebug] method=POST url=/api/mock-interviews
+[authDebug] raw authHeader=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2YTIyYWEzMzUxMjczNGE3MDBhOWM0MjkiLCJpYXQiOjE3ODA3Mjc2ODEsImV4cCI6MTc4MTMzMjQ4MX0.BNJBDNPUeGXxEvJbefbrn123W_R-FmMOAe_zLgNGaAE
+[authDebug] extracted token length=176
+[authDebug] jwt secret present=true
+[authDebug] jwt.verify succeeded
+[authDebug] decoded keys=userId,iat,exp
+[authDebug] lookup userId=6a22aa33512734a700a9c429
+[authDebug] authentication OK userId=6a22aa33512734a700a9c429
+---
+[authDebug] method=PUT url=/api/mock-interviews/6a23bf917dcfbde1c2bdca4e
+[authDebug] raw authHeader=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2YTIyYWEzMzUxMjczNGE3MDBhOWM0MjkiLCJpYXQiOjE3ODA3Mjc2ODEsImV4cCI6MTc4MTMzMjQ4MX0.BNJBDNPUeGXxEvJbefbrn123W_R-FmMOAe_zLgNGaAE
+[authDebug] extracted token length=176
+[authDebug] jwt secret present=true
+[authDebug] jwt.verify succeeded
+[authDebug] decoded keys=userId,iat,exp
+[authDebug] lookup userId=6a22aa33512734a700a9c429
+[authDebug] authentication OK userId=6a22aa33512734a700a9c429
+---
+[authDebug] method=DELETE url=/api/mock-interviews/6a23bf917dcfbde1c2bdca4e
+[authDebug] raw authHeader=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2YTIyYWEzMzUxMjczNGE3MDBhOWM0MjkiLCJpYXQiOjE3ODA3Mjc2ODEsImV4cCI6MTc4MTMzMjQ4MX0.BNJBDNPUeGXxEvJbefbrn123W_R-FmMOAe_zLgNGaAE
+[authDebug] extracted token length=176
+[authDebug] jwt secret present=true
+[authDebug] jwt.verify succeeded
+[authDebug] decoded keys=userId,iat,exp
+[authDebug] lookup userId=6a22aa33512734a700a9c429
+[authDebug] authentication OK userId=6a22aa33512734a700a9c429
+---
+[authDebug] method=POST url=/api/notes
+[authDebug] raw authHeader=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2YTIyYWEzMzUxMjczNGE3MDBhOWM0MjkiLCJpYXQiOjE3ODA3Mjc2ODEsImV4cCI6MTc4MTMzMjQ4MX0.BNJBDNPUeGXxEvJbefbrn123W_R-FmMOAe_zLgNGaAE
+[authDebug] extracted token length=176
+[authDebug] jwt secret present=true
+[authDebug] jwt.verify succeeded
+[authDebug] decoded keys=userId,iat,exp
+[authDebug] lookup userId=6a22aa33512734a700a9c429
+[authDebug] authentication OK userId=6a22aa33512734a700a9c429
+---
+[authDebug] method=PUT url=/api/notes/6a23bf917dcfbde1c2bdca55
+[authDebug] raw authHeader=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2YTIyYWEzMzUxMjczNGE3MDBhOWM0MjkiLCJpYXQiOjE3ODA3Mjc2ODEsImV4cCI6MTc4MTMzMjQ4MX0.BNJBDNPUeGXxEvJbefbrn123W_R-FmMOAe_zLgNGaAE
+[authDebug] extracted token length=176
+[authDebug] jwt secret present=true
+[authDebug] jwt.verify succeeded
+[authDebug] decoded keys=userId,iat,exp
+[authDebug] lookup userId=6a22aa33512734a700a9c429
+[authDebug] authentication OK userId=6a22aa33512734a700a9c429
+---
+[authDebug] method=DELETE url=/api/notes/6a23bf917dcfbde1c2bdca55
+[authDebug] raw authHeader=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2YTIyYWEzMzUxMjczNGE3MDBhOWM0MjkiLCJpYXQiOjE3ODA3Mjc2ODEsImV4cCI6MTc4MTMzMjQ4MX0.BNJBDNPUeGXxEvJbefbrn123W_R-FmMOAe_zLgNGaAE
+[authDebug] extracted token length=176
+[authDebug] jwt secret present=true
+[authDebug] jwt.verify succeeded
+[authDebug] decoded keys=userId,iat,exp
+[authDebug] lookup userId=6a22aa33512734a700a9c429
+[authDebug] authentication OK userId=6a22aa33512734a700a9c429
+---
+[authDebug] method=DELETE url=/api/topics/6a23bf907dcfbde1c2bdca3f
+[authDebug] raw authHeader=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2YTIyYWEzMzUxMjczNGE3MDBhOWM0MjkiLCJpYXQiOjE3ODA3Mjc2ODEsImV4cCI6MTc4MTMzMjQ4MX0.BNJBDNPUeGXxEvJbefbrn123W_R-FmMOAe_zLgNGaAE
+[authDebug] extracted token length=176
+[authDebug] jwt secret present=true
+[authDebug] jwt.verify succeeded
+[authDebug] decoded keys=userId,iat,exp
+[authDebug] lookup userId=6a22aa33512734a700a9c429
+[authDebug] authentication OK userId=6a22aa33512734a700a9c429
+---
+[authDebug] method=DELETE url=/api/goals/6a23bf907dcfbde1c2bdca45
+[authDebug] raw authHeader=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2YTIyYWEzMzUxMjczNGE3MDBhOWM0MjkiLCJpYXQiOjE3ODA3Mjc2ODEsImV4cCI6MTc4MTMzMjQ4MX0.BNJBDNPUeGXxEvJbefbrn123W_R-FmMOAe_zLgNGaAE
+[authDebug] extracted token length=176
+[authDebug] jwt secret present=true
+[authDebug] jwt.verify succeeded
+[authDebug] decoded keys=userId,iat,exp
+[authDebug] lookup userId=6a22aa33512734a700a9c429
+[authDebug] authentication OK userId=6a22aa33512734a700a9c429
+---
